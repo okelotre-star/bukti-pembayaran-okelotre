@@ -24,11 +24,11 @@ CARA PASANG DI CLOUDFLARE PAGES:
 
 EDIT LINK LOGIN/DAFTAR/PROMO/WHATSAPP:
 Buka file index.html, cari:
-https://contoh-link-login.com/
-https://contoh-link-daftar.com/
-https://contoh-link-promo.com/
-https://wa.me/6281234567890
-https://contoh-link-livechat.com/
+https://okenaga.com/okelogin
+https://okenaga.com/okedaftar
+https://okenaga.com/okelogin
+https://okenaga.com/okelotre
+https://direct.lc.chat/18176232/
 
 Catatan:
 - Jangan taruh password asli di file HTML.
