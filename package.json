@@ -1,0 +1,11 @@
+{
+  "name": "okelotre-bukti-jp-neon-r2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler pages deploy . --project-name okelotre-bukti-jp-neon-r2"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}

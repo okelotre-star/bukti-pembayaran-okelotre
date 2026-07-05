@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OKELOTRE - Bukti JP Casino, Slot Online & Semua Permainan</title>
+  <meta name="description" content="Galeri bukti pembayaran OKELOTRE dengan tema biru putih petir neon." />
+  <link rel="preload" as="image" href="/assets/okelotre-logo.png" />
+  <style>
+    :root{
+      --bg0:#020816;
+      --bg1:#031a37;
+      --bg2:#063b79;
+      --cyan:#23c7ff;
+      --cyan2:#0b7bff;
+      --white:#f5fcff;
+      --muted:#b8dfff;
+      --panel:rgba(2,16,38,.78);
+      --panel2:rgba(4,27,61,.88);
+      --line:rgba(55,200,255,.72);
+      --glow:0 0 16px rgba(35,199,255,.75),0 0 34px rgba(11,123,255,.42);
+      --shadow:0 18px 60px rgba(0,0,0,.45);
+      --radius:22px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family:Arial,Helvetica,sans-serif;
+      color:var(--white);
+      overflow-x:hidden;
+      background:
+        radial-gradient(circle at 15% 4%, rgba(51,191,255,.45), transparent 17%),
+        radial-gradient(circle at 84% 8%, rgba(14,112,255,.45), transparent 20%),
+        radial-gradient(circle at 50% 30%, rgba(4,44,98,.9), transparent 38%),
+        linear-gradient(180deg,#020916 0%,#03142d 45%,#01040d 100%);
+    }
+    body:before,body:after{
+      content:"";
+      position:fixed;
+      inset:-20px;
+      pointer-events:none;
+      z-index:-1;
+      opacity:.86;
+      background:
+        linear-gradient(118deg,transparent 0 10%,rgba(72,210,255,.88) 10.3%,transparent 10.8% 38%,rgba(54,192,255,.58) 38.2%,transparent 38.8% 100%),
+        linear-gradient(64deg,transparent 0 18%,rgba(0,119,255,.65) 18.3%,transparent 18.9% 72%,rgba(157,237,255,.72) 72.2%,transparent 72.8% 100%);
+      filter:drop-shadow(0 0 18px #18a9ff) blur(.1px);
+      mix-blend-mode:screen;
+    }
+    body:after{
+      opacity:.30;
+      background-image:
+        repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 1px,transparent 1px 74px),
+        repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 1px,transparent 1px 74px);
+      filter:none;
+      mix-blend-mode:normal;
+    }
+    a{color:inherit;text-decoration:none}
+    .page{max-width:1380px;margin:0 auto;padding:22px 18px 116px;position:relative}
+    .hero{text-align:center;position:relative;padding:8px 0 12px}
+    .logo{
+      width:min(350px,74vw);
+      display:block;
+      margin:0 auto 12px;
+      filter:drop-shadow(0 0 10px rgba(35,199,255,.95)) drop-shadow(0 0 28px rgba(3,112,255,.75));
+    }
+    .headline{
+      margin:0;
+      font-size:clamp(46px,9vw,104px);
+      line-height:.88;
+      letter-spacing:2px;
+      font-weight:1000;
+      text-transform:uppercase;
+      color:#fff;
+      text-shadow:
+        0 2px 0 #9ddfff,
+        0 7px 0 #0c4d9d,
+        0 0 12px #f6feff,
+        0 0 34px rgba(10,160,255,.9),
+        0 0 68px rgba(28,92,255,.65);
+      -webkit-text-stroke:1px rgba(183,237,255,.72);
+    }
+    .subtitle{
+      margin:14px auto 0;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      flex-wrap:wrap;
+      max-width:100%;
+      color:#e9f9ff;
+      font-weight:900;
+      letter-spacing:1.6px;
+      text-transform:uppercase;
+      text-shadow:0 0 10px rgba(96,206,255,.8);
+      font-size:clamp(12px,2vw,18px);
+    }
+    .bolt{color:#4ee3ff;text-shadow:var(--glow)}
+    .top-buttons{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin:26px auto 18px}
+    .neon-btn{
+      min-width:180px;
+      padding:14px 24px;
+      border-radius:18px;
+      border:1px solid rgba(127,230,255,.86);
+      background:linear-gradient(180deg,rgba(7,48,111,.72),rgba(0,12,32,.86));
+      box-shadow:inset 0 0 18px rgba(17,181,255,.4),0 0 16px rgba(39,190,255,.48);
+      color:#f9fdff;
+      font-size:22px;
+      font-weight:1000;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      position:relative;
+      overflow:hidden;
+      text-shadow:0 0 8px rgba(255,255,255,.6);
+    }
+    .neon-btn:before,.tab:before,.bottom-nav:before{
+      content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 0 30%,rgba(255,255,255,.2) 43%,transparent 57% 100%);transform:translateX(-120%);animation:shine 4.8s infinite;
+    }
+    .neon-btn:hover{transform:translateY(-2px);box-shadow:inset 0 0 22px rgba(17,181,255,.55),0 0 24px rgba(39,190,255,.7)}
+    @keyframes shine{0%,55%{transform:translateX(-120%)}72%,100%{transform:translateX(120%)}}
+    .filters{
+      margin:8px auto 22px;
+      max-width:720px;
+      display:flex;
+      gap:8px;
+      justify-content:center;
+      flex-wrap:wrap;
+      padding:8px;
+      border:1px solid rgba(104,219,255,.55);
+      border-radius:20px;
+      background:linear-gradient(180deg,rgba(3,24,58,.86),rgba(1,9,22,.75));
+      box-shadow:0 0 26px rgba(26,169,255,.22);
+    }
+    .tab{
+      border:0;
+      cursor:pointer;
+      color:#eefaff;
+      min-width:126px;
+      padding:12px 18px;
+      border-radius:14px;
+      font-size:18px;
+      font-weight:1000;
+      position:relative;
+      overflow:hidden;
+      background:transparent;
+      text-shadow:0 0 8px rgba(35,199,255,.45);
+    }
+    .tab.active{background:linear-gradient(180deg,#36d7ff,#0956d7);box-shadow:0 0 18px rgba(39,198,255,.78),inset 0 0 12px rgba(255,255,255,.25)}
+    .status-strip{
+      margin:2px auto 24px;
+      max-width:780px;
+      text-align:center;
+      border:1px solid rgba(104,219,255,.63);
+      background:linear-gradient(90deg,transparent,rgba(5,27,64,.82),transparent);
+      border-radius:16px;
+      padding:13px 16px;
+      font-weight:1000;
+      letter-spacing:.8px;
+      color:#f6fcff;
+      box-shadow:0 0 22px rgba(35,199,255,.28);
+      text-shadow:0 0 8px rgba(35,199,255,.75);
+    }
+    .status-strip b{color:#4ee3ff;text-decoration:underline;text-underline-offset:4px}
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+      gap:18px;
+      align-items:stretch;
+    }
+    .proof-card{
+      border-radius:var(--radius);
+      position:relative;
+      overflow:hidden;
+      background:linear-gradient(180deg,rgba(5,45,101,.9),rgba(1,10,24,.96));
+      border:1px solid rgba(83,211,255,.82);
+      box-shadow:0 0 18px rgba(35,199,255,.42),0 16px 34px rgba(0,0,0,.45),inset 0 0 20px rgba(21,152,255,.22);
+      min-height:320px;
+      display:flex;
+      flex-direction:column;
+    }
+    .proof-card:before{content:"";position:absolute;inset:0;border-radius:inherit;border:1px solid rgba(255,255,255,.4);pointer-events:none;box-shadow:inset 0 0 28px rgba(35,199,255,.36)}
+    .proof-img-wrap{height:270px;margin:14px 14px 0;border-radius:16px;overflow:hidden;background:linear-gradient(180deg,#f8fbff,#d9e9ff);display:flex;align-items:center;justify-content:center;box-shadow:0 0 12px rgba(255,255,255,.6)}
+    .proof-img-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+    .proof-info{padding:14px 16px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px;position:relative;z-index:1;background:linear-gradient(90deg,rgba(1,10,24,.4),rgba(4,49,108,.65),rgba(1,10,24,.4))}
+    .proof-name{font-weight:1000;letter-spacing:.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:55%;text-shadow:0 0 8px rgba(255,255,255,.45)}
+    .proof-amount{font-size:20px;font-weight:1000;color:#effcff;text-shadow:0 0 12px #27c9ff}
+    .proof-date{padding:0 16px 14px;color:var(--muted);font-size:12px;margin-top:-6px}
+    .empty{
+      max-width:760px;
+      margin:28px auto;
+      border:1px dashed rgba(99,221,255,.72);
+      background:rgba(2,16,38,.76);
+      border-radius:24px;
+      padding:34px 20px;
+      text-align:center;
+      color:#d8f4ff;
+      box-shadow:0 0 28px rgba(35,199,255,.20);
+    }
+    .empty h2{margin:0 0 8px;font-size:28px;text-shadow:0 0 14px rgba(35,199,255,.72)}
+    .bottom-nav{
+      position:fixed;
+      left:50%;bottom:14px;transform:translateX(-50%);
+      width:min(1050px,calc(100% - 18px));
+      border:1px solid rgba(117,225,255,.75);
+      border-radius:24px;
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      overflow:hidden;
+      background:linear-gradient(180deg,rgba(5,31,73,.94),rgba(1,9,23,.96));
+      box-shadow:0 0 24px rgba(35,199,255,.55),0 18px 40px rgba(0,0,0,.5);
+      z-index:20;
+    }
+    .bottom-nav a{position:relative;padding:16px 10px;display:flex;align-items:center;justify-content:center;gap:10px;border-right:1px solid rgba(70,187,255,.28);font-weight:1000;text-shadow:0 0 8px rgba(35,199,255,.5)}
+    .bottom-nav a:last-child{border-right:0}
+    .bottom-nav small{display:block;color:#c2eaff;font-weight:700;margin-top:3px;text-shadow:none}
+    .ico{font-size:28px;filter:drop-shadow(0 0 7px #26cfff)}
+    @media(max-width:760px){
+      .page{padding:14px 10px 112px}.top-buttons{gap:10px}.neon-btn{min-width:132px;font-size:16px;padding:12px 14px}.tab{min-width:90px;font-size:14px;padding:10px 12px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.proof-card{min-height:255px;border-radius:18px}.proof-img-wrap{height:190px;margin:9px 9px 0}.proof-info{padding:10px}.proof-name{font-size:12px}.proof-amount{font-size:14px}.proof-date{font-size:10px;padding:0 10px 10px}.bottom-nav{grid-template-columns:repeat(4,1fr);border-radius:18px}.bottom-nav a{font-size:12px;flex-direction:column;gap:3px;padding:10px 2px}.bottom-nav small{display:none}.ico{font-size:22px}}
+    @media(max-width:420px){.gallery{grid-template-columns:1fr 1fr}.proof-img-wrap{height:165px}.headline{letter-spacing:0}.status-strip{font-size:12px}.subtitle{font-size:11px}.logo{width:min(300px,82vw)}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <img class="logo" src="/assets/okelotre-logo.png" alt="OKELOTRE" />
+      <h1 class="headline">BUKTI JP</h1>
+      <div class="subtitle"><span class="bolt">⚡</span> BUKTI PEMBAYARAN ASLI <span>•</span> 100% AMAN <span>•</span> TERPERCAYA <span class="bolt">⚡</span></div>
+      <nav class="top-buttons" aria-label="Menu utama">
+        <a class="neon-btn" href="https://okenaga.com/okelogin">↪ LOGIN</a>
+        <a class="neon-btn" href="https://okenaga.com/okedaftar">👤 DAFTAR</a>
+        <a class="neon-btn" href="https://okenaga.com/okelogin">🎁 PROMO</a>
+      </nav>
+    </section>
+
+    <section class="filters" aria-label="Filter bukti JP">
+      <button class="tab active" data-filter="all">SEMUA</button>
+      <button class="tab" data-filter="bank">BANK</button>
+      <button class="tab" data-filter="ewallet">E-WALLET</button>
+      <button class="tab" data-filter="qris">QRIS</button>
+    </section>
+
+    <div class="status-strip">🛡️ SEMUA TRANSAKSI DI ATAS ADALAH <b>ASLI</b> DAN DIBAYAR LUNAS 🛡️</div>
+
+    <section id="gallery" class="gallery" aria-live="polite"></section>
+    <section id="empty" class="empty" style="display:none">
+      <h2>Belum ada gambar</h2>
+      <p>Upload gambar dulu dari halaman admin, nanti otomatis muncul di sini.</p>
+      <p><a class="neon-btn" href="/admin/">BUKA ADMIN</a></p>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Menu bawah">
+    <a href="https://okenaga.com/okelogin"><span class="ico">🎁</span><span>BONUS<small>Bonus Menarik</small></span></a>
+    <a href="https://okenaga.com/okedaftar"><span class="ico">👤</span><span>DAFTAR<small>Daftar Sekarang</small></span></a>
+    <a href="https://okenaga.com/okelotre"><span class="ico">🟢</span><span>APLIKASI<small>Download APK</small></span></a>
+    <a href="https://contoh-link-livechat.com/"><span class="ico">🎧</span><span>LIVE CHAT<small>Online 24 Jam</small></span></a>
+  </nav>
+
+<script>
+const gallery = document.getElementById('gallery');
+const empty = document.getElementById('empty');
+const tabs = document.querySelectorAll('.tab');
+let allItems = [];
+let activeFilter = 'all';
+
+function rupiahText(value){
+  if(!value) return '';
+  const clean = String(value).replace(/[^0-9]/g,'');
+  if(!clean) return value;
+  return Number(clean).toLocaleString('id-ID');
+}
+function maskName(name){
+  if(!name) return 'MEM***JP';
+  const s = String(name).toUpperCase().replace(/[^A-Z0-9]/g,'');
+  if(s.length <= 3) return s + '***';
+  return s.slice(0,3) + '***' + s.slice(-2);
+}
+function render(){
+  const items = activeFilter === 'all' ? allItems : allItems.filter(x => (x.category || 'bank') === activeFilter);
+  gallery.innerHTML = '';
+  if(!items.length){ empty.style.display = 'block'; return; }
+  empty.style.display = 'none';
+  for(const item of items){
+    const card = document.createElement('article');
+    card.className = 'proof-card';
+    const date = item.uploaded ? new Date(item.uploaded).toLocaleString('id-ID', {dateStyle:'medium', timeStyle:'short'}) : '';
+    const name = maskName(item.displayName || item.name);
+    const amount = rupiahText(item.amount) || 'JP LUNAS';
+    card.innerHTML = `
+      <div class="proof-img-wrap"><img src="${item.url}" alt="Bukti JP ${name}" loading="lazy"></div>
+      <div class="proof-info"><span class="proof-name">👤 ${name}</span><span class="proof-amount">${amount}</span></div>
+      <div class="proof-date">${date || 'Baru diupload'} • ${(item.category || 'bank').toUpperCase()}</div>
+    `;
+    gallery.appendChild(card);
+  }
+}
+async function loadGallery(){
+  try{
+    const res = await fetch('/api/list', {cache:'no-store'});
+    const data = await res.json();
+    if(!res.ok) throw new Error(data.error || 'Gagal load data');
+    allItems = Array.isArray(data.items) ? data.items : [];
+  }catch(err){
+    allItems = [];
+    empty.querySelector('p').textContent = 'Gagal mengambil data. Pastikan R2 binding BUKTI_BUCKET sudah dipasang.';
+  }
+  render();
+}
+tabs.forEach(tab => tab.addEventListener('click', () => {
+  tabs.forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  activeFilter = tab.dataset.filter;
+  render();
+}));
+loadGallery();
+setInterval(loadGallery, 60000);
+</script>
+</body>
+</html>
